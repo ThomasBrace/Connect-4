@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>Connect 4</title>
+	<meta name="Author" content="Thomas Brace"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+<body>
+    <div class="view">
+        <div class="player panel" id="player_one">
+            <h1>PLAYER ONE</h1>
+            <div class="example cell red"></div><br/>
+            TURNS : <span id="player_one_turn">0</span><br />
+            LONGEST : <span id="player_one_longest">0</span><br />
+        </div>
+        <div class="content panel" id="container"></div>
+        <div class="player panel" id="player_two">
+            <h1>PLAYER TWO</h1>
+            <div class="example cell yellow"></div><br/>
+            TURNS : <span id="player_two_turn">0</span><br />
+            LONGEST : <span id="player_two_longest">0</span><br />
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    color:#505050;
+}
+h1 {
+    line-height:38px;
+    font-size: 35px;
+    margin-top: 0px;
+}
+.cell{
+    float:left;
+    width:30px;
+    height:30px;
+    border-radius: 15px;
+    border: 1.5px solid #697da2;
+    background-color: white;
+    margin: 2px;
+}
+.example {
+    float:none;
+    margin: 0px auto;
+}
+.row {
+    float:left;
+    clear:both;
+}
+.yellow {
+    -webkit-animation: animate_yellow 0.1s linear forwards;
+    animation-name: animate_yellow 0.1s linear forwards;
+}
+.yellow_win {
+    border: 1.5px solid #ff0000;
+}
+.yellow_animate{
+    -webkit-animation: animate_yellow 0.1s linear 0s 2 alternate;
+    animation-name: animate_yellow 0.1s linear 0s 2 alternate;
+}
+@-webkit-keyframes animate_yellow {
+    100%  {background-color: yellow;}
+}
+@keyframes animate_yellow {
+    100%  {background-color: yellow;}
+}
+.red {
+    -webkit-animation: animate_red 0.1s linear forwards;
+    animation-name: animate_red 0.1s linear forwards;
+}
+.red_win {
+    border: 1.5px solid #ffff00;
+}
+.red_animate{
+    -webkit-animation: animate_red 0.1s linear 0s 2 alternate;
+    animation-name: animate_red 0.1s linear 0s 2 alternate;
+}
+@-webkit-keyframes animate_red {
+    100%  {background-color: red;}
+}
+@keyframes animate_red {
+    100%  {background-color: red;}
+}
+.view {
+    float: left;
+    width:100%;
+}
+.panel {
+    margin:10px 0;
+    float:left;
+    clear:none;
+    line-height:120%; 
+    height:100%;
+}
+.content {
+    background-color: #6495ed;
+    padding: 5px;
+    border: 1.5px solid #697da2;
+}
+.player {
+    width:150px;
+    text-align: center;
+}
