@@ -66,7 +66,7 @@ h1 {
     margin:10px 0;
     float:left;
     clear:none;
-    line-height:120%; 
+    line-height:120%;
     height:100%;
 }
 .content {
@@ -77,4 +77,9 @@ h1 {
 .player {
     width:150px;
     text-align: center;
+}
+.win {
+  position: relative;
+  font-size: 50px;
+  color: #ccc;
 }
